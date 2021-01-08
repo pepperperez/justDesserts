@@ -1,0 +1,297 @@
+/* Global */
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: hsl(192, 15%, 89%, 75%);
+    width: 100%;
+    height: 100vh;
+}
+
+
+/*header*/
+header {
+    position: fixed;    
+    top: 0px;
+    z-index: 1;
+    width: 100%;
+    margin-bottom: 2em;
+}    
+
+.cursive-txt {
+    font-family: 'Meddon', cursive;
+    font-style: italic;
+}
+
+.logo {
+    font-family: 'Amiri', serif;
+    text-align: center;
+    display: inline;
+    color: #F77DB2;
+}
+
+.banner {
+    padding: 20px 0px 10px 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    width: 100%;
+    background-color: hsl(210, 29%, 25%);
+}
+
+.banner img {
+    min-width: 200px;
+}
+
+.site-nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: hsl(210, 29%, 25%);
+    margin-top: 0px;
+}
+
+.site-nav li {
+    display:inline-flex;
+    font-size: 1.5em;
+    padding: 5px 20px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.site-nav a {
+    text-decoration: none ;
+}
+
+.site-nav a:visited {
+    color: hsl(192, 15%, 89%);
+}
+
+.site-nav a:hover {
+    color: hsl(334, 88%, 73%);
+}
+
+/* main */
+main {
+    width: 100%;
+}
+
+.cv-info {
+    margin-top: 150px;
+}
+
+.content {
+    margin-top: 150px;
+}
+
+.container {
+    background-image: url(./Images/Sign.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 70%;
+    height: 1200px;
+    display: inline-block;
+    margin-left: 15%;
+    margin-top: 45px;
+}
+
+.about-us {
+    background-color: hsla(192, 15%, 89%, 80%);
+    width: 70%;
+    display: inline-block;
+    margin: 5% 15%;
+    font-size: 20px;
+    padding: 15px;
+}
+
+.catch {
+    background-color: hsla(192, 15%, 89%, 80%);
+    width: 70%;
+    display: inline-block;
+    margin: 60% 10% 15% 15%;
+    padding: 15px;
+    font-family: 'Amiri', serif;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.about-us p {
+    text-align: center;
+    font-family: 'Amiri', serif;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Amiri', serif;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.intro {
+    text-align: center;
+    margin-left: 15%;
+    max-width: 70%;
+    margin-bottom: 1.5em;
+    background-color: hsl(192, 15%, 89%);
+    padding: 1em 0em;
+    border-radius: 15px;
+}
+
+.fyi,
+.opening,
+.cv-info {
+    border-radius: 15px;
+    background-color: hsla(334, 88%, 73%, 25%);
+    font-weight: bold;
+    padding: 5px 0px;
+    max-width: 50%;
+    margin-left: 25%;
+    margin-bottom: 1.5em;
+}
+
+.cakes {
+    margin-left: 15%;
+    text-align: center;
+    max-width: 70%;
+}
+
+.cakes h3 {
+    background-color: hsl(210, 29%, 25%);
+    color: hsl(192, 15%, 89%);
+    padding: 10px;
+    margin-bottom: 0px;
+    border-radius: 15px 15px 0 0;
+    font-weight: normal;
+}
+
+.choc-grid {
+    display: grid;
+    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+    gap: 10px 10px;
+    background-color:hsl(192, 15%, 89%);
+    padding: 25px 0px;
+    margin-bottom: 1.5em;
+    grid-template-areas: "choc1 choc2 choc3"
+                        "choc4 choc5 choc6"
+                        "choc7 choc8 choc9";
+}
+
+.other-grid,
+.cookie-grid {
+    display: grid;
+    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+    gap: 10px 10px;
+    background-color:hsl(192, 15%, 89%);
+    padding: 25px 0px;
+}
+
+.cookie-grid {
+    grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+}
+
+.cake img {
+    max-height: 300px;
+    min-height: 300px;
+    max-width: 300px;
+    min-width: 300px;
+}
+
+
+#choc1 {
+    grid-area: choc1;
+}
+
+#choc2 {
+    grid-area: choc2;
+}
+
+#choc3 {
+    grid-area: choc3;
+}
+
+#choc4 {
+    grid-area: choc4;
+}
+
+#choc5 {
+    grid-area: choc5;
+}
+
+#choc6 {
+    grid-area: choc6;
+}
+
+#choc7 {
+    grid-area: choc7;
+}
+
+#choc8 {
+    grid-area: choc8;
+}
+
+#choc9 {
+    grid-area: choc9;
+}
+
+.cake-description {
+    border-radius: 5px;
+    color:hsl(210, 29%, 25%)
+}
+
+.events-tag {
+    max-width: 50%;
+    margin-left: 25%; 
+    line-height: 1.5em;
+    font-family: 'Amiri', serif;
+    font-size: 1.5em;
+}
+
+#event1,
+#event2 {
+    margin-bottom: 1.5em;
+}
+
+#event1 img {
+    max-width: 659px;
+}
+
+.contact {
+    display: inline-block;
+    background-image: url(./Images/Cakes3.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 150px;
+    line-height: 1.5em;
+    height: 100vh;
+}
+
+.contact .content{
+    margin-top: 0px;
+}
+
+.opening {
+    padding: 5px 10px;
+}
+
+/*footer*/
+.footer {
+    
+}
+
+footer {
+    background-color: hsl(210, 29%, 25%);
+    color: hsl(192, 15%, 89%);
+    width: 100%;
+    position: static;
+    margin-bottom: 0%;
+}
+
+
+h6 {
+    font-size: 16px;
+    padding: 5px;
+    font-weight: normal;
+}
