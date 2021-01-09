@@ -20,18 +20,6 @@ header {
     margin-bottom: 2em;
 }    
 
-.cursive-txt {
-    font-family: 'Meddon', cursive;
-    font-style: italic;
-}
-
-.logo {
-    font-family: 'Amiri', serif;
-    text-align: center;
-    display: inline;
-    color: #F77DB2;
-}
-
 .banner {
     padding: 20px 0px 10px 0px;
     margin-bottom: 0px;
@@ -41,7 +29,7 @@ header {
 }
 
 .banner img {
-    min-width: 200px;
+    max-width: 100px;
 }
 
 .site-nav {
@@ -277,9 +265,6 @@ h2 {
 }
 
 /*footer*/
-.footer {
-    
-}
 
 footer {
     background-color: hsl(210, 29%, 25%);
