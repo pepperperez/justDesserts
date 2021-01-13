@@ -29,7 +29,7 @@ header {
 }
 
 .banner img {
-    max-width: 100px;
+    max-width: 75px;
 }
 
 .site-nav {
@@ -73,7 +73,7 @@ main {
 }
 
 .container {
-    background-image: url(./Images/Sign.png);
+    background-image: url(./images/white-forest.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     width: 70%;
@@ -168,7 +168,7 @@ h2 {
 .other-grid,
 .cookie-grid {
     display: grid;
-    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+    grid-template: repeat(2, 1fr) / repeat(3, 1fr);
     gap: 10px 10px;
     background-color:hsl(192, 15%, 89%);
     padding: 25px 0px;
@@ -238,15 +238,18 @@ h2 {
 #event1,
 #event2 {
     margin-bottom: 1.5em;
+    display: inline;
 }
 
 #event1 img {
     max-width: 659px;
+    max-height: 960px;
+    margin-right: 45px;
 }
 
 .contact {
     display: inline-block;
-    background-image: url(./Images/Cakes3.png);
+    background-image: url(./images/Cake-fork-crumb.jpg);
     background-size:cover;
     background-repeat: no-repeat;
     width: 70%;
