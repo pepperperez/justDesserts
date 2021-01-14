@@ -5,7 +5,7 @@ html {
 
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: hsl(192, 15%, 89%, 75%);
+    background-color: hsla(33, 28%, 79%, 50%);
     width: 100%;
     height: 100vh;
 }
@@ -21,42 +21,47 @@ header {
 }    
 
 .banner {
-    padding: 20px 0px 10px 0px;
+    padding: 15px 0px 5px 0px;
     margin-bottom: 0px;
     text-align: center;
     width: 100%;
-    background-color: hsl(210, 29%, 25%);
+    background-color: hsl(206, 75%, 25%);
 }
 
 .banner img {
     max-width: 75px;
+    background-color: hsla(206, 75%, 63%, 40%);
+    padding: 5px 0px;
+    border-radius: 15px;
 }
 
 .site-nav {
     display: flex;
     justify-content: space-around;
-    background-color: hsl(210, 29%, 25%);
+    background-color: hsl(206, 75%, 25%);
     margin-top: 0px;
+    align-items: center;
 }
 
 .site-nav li {
     display:inline-flex;
     font-size: 1.5em;
-    padding: 5px 20px;
+    padding: 0px 20px;
     margin: 5px;
     border-radius: 10px;
 }
 
 .site-nav a {
     text-decoration: none ;
+    color: hsl(34, 26%, 89%);
 }
 
 .site-nav a:visited {
-    color: hsl(192, 15%, 89%);
+    color: hsl(34, 26%, 89%);
 }
 
 .site-nav a:hover {
-    color: hsl(334, 88%, 73%);
+    color: hsl(349, 100%, 32%);
 }
 
 /* main */
@@ -84,23 +89,25 @@ main {
 }
 
 .about-us {
-    background-color: hsla(192, 15%, 89%, 80%);
+    background-color: hsla(34, 26%, 89%, 80%);
     width: 70%;
     display: inline-block;
     margin: 5% 15%;
     font-size: 20px;
     padding: 15px;
+    border-radius: 15px;
 }
 
 .catch {
-    background-color: hsla(192, 15%, 89%, 80%);
+    background-color: hsla(34, 26%, 89%, 80%);
     width: 70%;
     display: inline-block;
-    margin: 60% 10% 15% 15%;
+    margin: 45% 10% 15% 15%;
     padding: 15px;
     font-family: 'Amiri', serif;
     font-size: 1.5em;
     text-align: center;
+    border-radius: 15px;
 }
 
 .about-us p {
@@ -121,16 +128,15 @@ h2 {
     margin-left: 15%;
     max-width: 70%;
     margin-bottom: 1.5em;
-    background-color: hsl(192, 15%, 89%);
+    background-color: hsla(206, 75%, 83%, 50%);
     padding: 1em 0em;
     border-radius: 15px;
 }
 
 .fyi,
-.opening,
 .cv-info {
     border-radius: 15px;
-    background-color: hsla(334, 88%, 73%, 25%);
+    background-color: hsla(349, 100%, 32%, 25%);
     font-weight: bold;
     padding: 5px 0px;
     max-width: 50%;
@@ -145,8 +151,8 @@ h2 {
 }
 
 .cakes h3 {
-    background-color: hsl(210, 29%, 25%);
-    color: hsl(192, 15%, 89%);
+    background-color:  hsl(206, 75%, 25%);
+    color: hsl(34, 26%, 89%);
     padding: 10px;
     margin-bottom: 0px;
     border-radius: 15px 15px 0 0;
@@ -157,7 +163,7 @@ h2 {
     display: grid;
     grid-template: repeat(3, 1fr) / repeat(3, 1fr);
     gap: 10px 10px;
-    background-color:hsl(192, 15%, 89%);
+    background-color:hsla(206, 75%, 83%, 50%);
     padding: 25px 0px;
     margin-bottom: 1.5em;
     grid-template-areas: "choc1 choc2 choc3"
@@ -170,7 +176,7 @@ h2 {
     display: grid;
     grid-template: repeat(2, 1fr) / repeat(3, 1fr);
     gap: 10px 10px;
-    background-color:hsl(192, 15%, 89%);
+    background-color:hsla(206, 75%, 83%, 50%);
     padding: 25px 0px;
 }
 
@@ -183,6 +189,7 @@ h2 {
     min-height: 300px;
     max-width: 300px;
     min-width: 300px;
+    border: 0.5px solid #957856;
 }
 
 
@@ -265,12 +272,18 @@ h2 {
 
 .opening {
     padding: 5px 10px;
+    font-weight: bold;
+    max-width: 50%;
+    margin-left: 25%;
+    margin-bottom: 1.5em;
+    background-color: hsl(206, 75%, 63%, 50%);
+    border-radius: 15px;
 }
 
 /*footer*/
 
 footer {
-    background-color: hsl(210, 29%, 25%);
+    background-color: hsl(206, 75%, 25%);
     color: hsl(192, 15%, 89%);
     width: 100%;
     position: static;
