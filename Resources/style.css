@@ -98,6 +98,21 @@ main {
     border-radius: 15px;
 }
 
+.just {
+    font-family: 'Tangerine', cursive;
+    font-size: 1.85em;
+    font-weight: bold;
+}
+
+.cherry {
+    max-width: 0.75em;
+}
+
+.about-us img {
+    /*text-align: center;*/
+    margin-left: 50%;
+}
+
 .catch {
     background-color: hsla(34, 26%, 89%, 80%);
     width: 70%;
