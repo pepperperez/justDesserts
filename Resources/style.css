@@ -73,6 +73,19 @@ main {
     margin-top: 150px;
 }
 
+button {
+    border: none;
+    background-color: hsla(349, 100%, 32%, 0%);
+    font-size: 20px;
+    margin: 0 15% 0 10%;
+    font-weight: bold;
+}
+
+button:hover {
+    color:hsl(206, 75%, 25%);
+    cursor: pointer;
+}
+
 .content {
     margin-top: 150px;
 }
@@ -119,7 +132,7 @@ main {
     background-color: hsla(34, 26%, 89%, 80%);
     width: 70%;
     display: inline-block;
-    margin: 45% 10% 15% 15%;
+    margin: 40% 10% 15% 15%;
     padding: 15px;
     font-family: 'Amiri', serif;
     font-size: 1.5em;
@@ -297,6 +310,48 @@ h2 {
     background-color: hsl(206, 75%, 63%, 50%);
     border-radius: 15px;
 }
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+  /* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    /*background-color: hsl(16, 100%, 92%);*/
+    color: #182848;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid coral;
+    border-radius: 15px;
+    width: 60%; /* Could be more or less, depending on screen size */
+}
+
+  /* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
 
 /*footer*/
 

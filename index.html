@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Amiri&family=Meddon&family=Roboto&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
-    <script src="./Resources/script.js"></script>
+    
     <title>Just Desserts</title>
 </head>
 <body>
@@ -31,8 +31,25 @@
     <main>
         <!--Alert pop up-->
         
+        <div class="cv-info">
+            <!-- Trigger/Open The Modal -->
+            <button id="myBtn">Click here for important information regarding our policies during the Covid-19 pandemic</button>
+            
+            <!-- The Modal -->
+            <div id="covidModal" class="modal">
+                <!-- Modal content -->
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <p>For the health and safety of our customers & employees, as per CDC guidelines and the Governor’s state wide directive, face masks will be required when inside the store. </p>
+                </div>
+            </div>
+        </div>
+        <script src="./Resources/script.js"></script>
 
-        <h2 class="cv-info">Click <a href="./covid-info.html">here</a> for important information regarding our policies during the Covid-19 pandemic.</h2>
+        <!--
+            <h2 class="cv-info">Click <i href="#">here</i> for important information regarding our policies during the Covid-19 pandemic.</h2>
+        -->
+        
         <div class="container">
             <div class="about-us">
                 <h2><span class="just">Just Desserts</span></br>Traditional desserts with a contemporary twist</h2>
