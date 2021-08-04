@@ -6,22 +6,29 @@
     <link href="./Resources/style.css" type="text/css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Amiri&family=Meddon&family=Roboto&display=swap" rel="stylesheet">
+    <!--import font-awsome-->
+    <script src="https://kit.fontawesome.com/0c7bc2bd5e.js" crossorigin="anonymous"></script>
+    
     <title>Just Desserts</title>
 </head>
 <body class="grid">
     <!-- header -->
     <header>
-        <div class="banner">
-            <nav>
-                <ul class="site-nav">
-                    <li><a href="./index.html">Home</a></li>
-                    <li><a href="./cakes.html">Our Menu</a></li>
-                    <li><img src="./Resources/images/piece-of-cake-svgrepo-com.png"/></li>
-                    <li><a href="#">Special Occasions</a></li>
-                    <li><a href="./contact.html">Contact Us</a></li>
-                </ul>
-            </nav>
-        </div>
+        <nav class="banner">
+            <div class="navigation" id="myNavigation">
+                <a href="./index.html" onclick="myFunction()">Home</a></li>
+                <a href="./cakes.html" onclick="myFunction()">Our Menu</a>
+                <img src="./Resources/images/piece-of-cake-svgrepo-com.png"/>
+                <a href="#" onclick="myFunction()">Special Occasions</a>
+                <a href="./contact.html" onclick="myFunction()">Contact Us</a>
+                
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fas fa-bars"></i>
+                </a>
+                <a onclick="myFunction()"><span class="ix">&times;</span></a>
+            </div>
+            <script src="./Resources/script.js"></script>
+        </nav>
     </header>
 
     <!-- main content -->

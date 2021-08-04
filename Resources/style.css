@@ -20,13 +20,13 @@ header {
     margin-bottom: 2em;
 }    
 
-.banner {
+/*.banner {
     padding: 15px 0px 5px 0px;
     margin-bottom: 0px;
     text-align: center;
     width: 100%;
     background-color: hsl(206, 75%, 25%);
-}
+}*/
 
 .banner img {
     max-width: 75px;
@@ -35,32 +35,32 @@ header {
     border-radius: 15px;
 }
 
-.site-nav {
+.navigation {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    padding: 15px 0px 5px 0px;
     background-color: hsl(206, 75%, 25%);
     margin-top: 0px;
+    margin-left: 10%;
     align-items: center;
+    text-align: center;
+    width: 100%;
 }
 
-.site-nav li {
+.navigation a {
+    text-decoration: none ;
+    color: hsl(34, 26%, 89%);
     display:inline-flex;
     font-size: 1.5em;
     padding: 0px 20px;
-    margin: 5px;
-    border-radius: 10px;
+    margin: 0px 5px;
 }
 
-.site-nav a {
-    text-decoration: none ;
+.navigation a:visited {
     color: hsl(34, 26%, 89%);
 }
 
-.site-nav a:visited {
-    color: hsl(34, 26%, 89%);
-}
-
-.site-nav a:hover {
+.navigation a:hover {
     color: hsl(349, 100%, 32%);
 }
 
@@ -368,4 +368,63 @@ h6 {
     font-size: 16px;
     padding: 5px;
     font-weight: normal;
+}
+
+/*media queries*/
+@media only screen and (max-width: 1080px){
+    .banner img {
+        float: right;
+        margin-right: 5%;
+        margin-top: 10px;
+    }
+
+    .navigation {
+        display: inline;
+    }
+
+    .navigation a {
+        display: none;
+        font-size: 1.75rem;
+        color: hsl(206, 75%, 25%);
+        
+    }
+    .navigation a.icon {
+        float: left;
+        display: block;
+        position:absolute;
+        left:20px;
+        top: 40px;
+        color: hsl(206, 75%, 25%);
+    }
+
+    .navigation.responsive {
+        position: relative;
+    }
+    
+    .navigation.responsive a.icon {
+        display: none;
+    }
+
+    .navigation.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+        color: hsl(206, 75%, 25%);
+        background-color: hsla(206, 75%, 83%, 75%);
+        max-width: 50%;
+    }
+
+    nav {
+        display: inline;
+        padding: 10px 20px;
+        text-align: center;
+    }
+    
+}
+
+@media only screen and (min-width: 1080px) {
+    .navigation a.icon,
+    .ix {
+        display: none;
+    }
 }
