@@ -106,7 +106,7 @@ button:hover {
     background-color: hsla(34, 26%, 89%, 80%);
     width: 70%;
     display: inline-block;
-    margin: 5% 15%;
+    margin: 5% 10%;
     font-size: 20px;
     padding: 15px;
     border-radius: 15px;
@@ -294,7 +294,7 @@ h2 {
     margin-left: 15%;
     margin-top: 150px;
     line-height: 1.5em;
-    height: 100vh;
+    max-height: 90%;
 }
 
 .contact .content{
@@ -450,7 +450,24 @@ h6 {
         background-color:hsla(206, 75%, 83%, 50%);
         padding: 25px 0px;
     }
-    
+
+    .event-cakes {
+        align-items: center;
+    }
+
+    #event1,
+    #event2 {
+        margin-bottom: 1.5em;
+        display: inline-block;
+    }
+
+    #event1 img, 
+    #event2 img {
+        max-width: 85%;
+        max-height: 90%;
+        margin-left: 7%;
+    }
+
 }
 
 @media only screen and (min-width: 1080px) {
