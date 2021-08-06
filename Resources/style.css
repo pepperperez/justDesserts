@@ -468,6 +468,9 @@ h6 {
         margin-left: 7%;
     }
 
+    header {
+        position: static;
+    }
 }
 
 @media only screen and (min-width: 1080px) {
