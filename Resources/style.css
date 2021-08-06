@@ -20,13 +20,13 @@ header {
     margin-bottom: 2em;
 }    
 
-/*.banner {
+.banner {
     padding: 15px 0px 5px 0px;
     margin-bottom: 0px;
     text-align: center;
     width: 100%;
     background-color: hsl(206, 75%, 25%);
-}*/
+}
 
 .banner img {
     max-width: 75px;
@@ -372,6 +372,10 @@ h6 {
 
 /*media queries*/
 @media only screen and (max-width: 1080px){
+    .banner {
+        background-color:hsl(33, 28%, 89%)
+    }
+
     .banner img {
         float: right;
         margin-right: 5%;
@@ -458,7 +462,7 @@ h6 {
     #event1,
     #event2 {
         margin-bottom: 1.5em;
-        display: inline-block;
+        display: inline-grid;
     }
 
     #event1 img, 
@@ -477,5 +481,9 @@ h6 {
     .navigation a.icon,
     .ix {
         display: none;
+    }
+
+    main {
+        padding-top: 50px;
     }
 }
